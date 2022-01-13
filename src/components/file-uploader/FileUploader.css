@@ -1,4 +1,12 @@
-.input-block {
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input-block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +30,7 @@ input[type="file"] {
     display: none;
 }
 
-.input-block #image-label {
+.input-block #image-label, button {
     text-align: center;
     padding: 5px;
     width: 160px;
