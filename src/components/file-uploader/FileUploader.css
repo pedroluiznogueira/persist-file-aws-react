@@ -30,7 +30,8 @@ input[type="file"] {
     display: none;
 }
 
-.input-block #image-label, button {
+.input-block #image-label, 
+form button {
     text-align: center;
     padding: 5px;
     width: 160px;
@@ -43,10 +44,12 @@ input[type="file"] {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.input-block #image-label:hover {
+.input-block #image-label:hover,
+form button:hover {
     color: #31629B;
 }
 
-.input-block #image-label:active {
+.input-block #image-label:active,
+form button:active {
     color: rgb(88, 166, 255);
 }
