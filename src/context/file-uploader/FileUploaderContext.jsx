@@ -9,7 +9,7 @@ export const FileUploaderProvider = ( {children} ) => {
 
     const uploadFile = async (formData) => {
         console.log(formData);
-        const response = await axios.post(`${url}/upload-file`, formData);
+        const response = await axios.post(`${url}/bucket/push`, formData);
     }
 
     return(
